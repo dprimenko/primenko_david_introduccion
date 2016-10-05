@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_juego_memoria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.primenko_david_introduccion.JuegoMemoria_Activity"
+    android:gravity="center_horizontal">
+
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:src="@mipmap/ic_launcher"
+            android:onClick="darVuelta"
+            android:id="@+id/img0"
+            android:tag="@string/tag0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img1"
+            android:tag="@string/tag1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img2"
+            android:tag="@string/tag2"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img3"
+            android:tag="@string/tag3"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img4"
+            android:tag="@string/tag4"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img5"
+            android:tag="@string/tag5"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img6"
+            android:tag="@string/tag6"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img7"
+            android:tag="@string/tag7" />
+
+    </TableRow>
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img8"
+            android:tag="@string/tag8"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img9"
+            android:tag="@string/tag9"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img10"
+            android:tag="@string/tag10"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img11"
+            android:tag="@string/tag11"/>
+
+    </TableRow>
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img12"
+            android:tag="@string/tag12"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img13"
+            android:tag="@string/tag13"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img14"
+            android:tag="@string/tag14" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img15"
+            android:tag="@string/tag15"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img16"
+            android:tag="@string/tag16"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img17"
+            android:tag="@string/tag17"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img18"
+            android:tag="@string/tag18"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img19"
+            android:tag="@string/tag19"/>
+    </TableRow>
+
+    <tag android:id="@+id/tag0"
+        android:value="@string/tag0"/>
+    <tag android:id="@+id/tag1"
+        android:value="@string/tag1"/>
+    <tag android:id="@+id/tag2"
+        android:value="@string/tag2"/>
+    <tag android:id="@+id/tag3"
+        android:value="@string/tag3"/>
+    <tag android:id="@+id/tag4"
+        android:value="@string/tag4"/>
+    <tag android:id="@+id/tag5"
+        android:value="@string/tag5"/>
+    <tag android:id="@+id/tag6"
+        android:value="@string/tag6"/>
+    <tag android:id="@+id/tag7"
+        android:value="@string/tag7"/>
+    <tag android:id="@+id/tag8"
+        android:value="@string/tag8"/>
+    <tag android:id="@+id/tag9"
+        android:value="@string/tag9"/>
+    <tag android:id="@+id/tag10"
+        android:value="@string/tag10"/>
+    <tag android:id="@+id/tag11"
+        android:value="@string/tag11"/>
+    <tag android:id="@+id/tag12"
+        android:value="@string/tag12"/>
+    <tag android:id="@+id/tag13"
+        android:value="@string/tag13"/>
+    <tag android:id="@+id/tag14"
+        android:value="@string/tag14"/>
+    <tag android:id="@+id/tag15"
+        android:value="@string/tag15"/>
+    <tag android:id="@+id/tag16"
+        android:value="@string/tag16"/>
+    <tag android:id="@+id/tag17"
+        android:value="@string/tag17"/>
+    <tag android:id="@+id/tag18"
+        android:value="@string/tag18"/>
+    <tag android:id="@+id/tag19"
+        android:value="@string/tag19"/>
+
+</TableLayout>
