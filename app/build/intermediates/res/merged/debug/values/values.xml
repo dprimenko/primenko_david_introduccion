@@ -1,5 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="posicionCinco">
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/windows</item>
+    </string-array>
+    <string-array name="posicionCuatro">
+        <item>@drawable/fedora</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/suse</item>
+    </string-array>
+    <string-array name="posicionDos">
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/ios</item>
+    </string-array>
+    <string-array name="posicionTres">
+        <item>@drawable/windows</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/ios</item>
+    </string-array>
+    <string-array name="posicionUno">
+        <item>@drawable/centos</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/msdos</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/mint</item>
+        <item>@drawable/redhat</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/ubuntu</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/centos</item>
+        <item>@drawable/fedora</item>
+        <item>@drawable/windows</item>
+        <item>@drawable/ios</item>
+        <item>@drawable/debian</item>
+        <item>@drawable/suse</item>
+        <item>@drawable/ubuntu</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
